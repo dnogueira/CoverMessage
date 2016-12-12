@@ -103,7 +103,7 @@
 	}
 
 	function announcement(options) {
-	  return "\n    <eager-dialog-content-title>" + get(options, "announcementTitle") + "</eager-dialog-content-title>\n    " + get(options, "announcementText") + "\n\n    <form>\n      <input type=\"submit\" value=\"" + get(options, "announcementButtonText") + "\">\n    </form>\n  ";
+	  return "\n    <eager-dialog-content-title>" + get(options, "announcementTitle") + "</eager-dialog-content-title>\n    " + get(options, "announcementText") + "\n...teste...\n    <form>\n      <input type=\"submit\" value=\"" + get(options, "announcementButtonText") + "\">\n    </form>\n  ";
 	}
 
 	function cta(options) {
